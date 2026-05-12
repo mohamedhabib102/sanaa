@@ -12,8 +12,8 @@ export const Hero = () => {
           
           <div className="lg:col-span-7 z-10 text-right">
             <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
               <div className="inline-block mb-6">
