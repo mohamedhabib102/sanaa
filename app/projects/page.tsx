@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import { Header } from "@/components/layouts/Header";
 import { Footer } from "@/components/layouts/Footer";
 import { ProjectsContent } from "@/components/layouts/ProjectsContent";
 
 export const metadata: Metadata = {
-  title: "معرض المشاريع | الصنعة للمعمار",
-  description: "تصفح معرض صور مشاريع الصنعة. شاهد إبداعاتنا في تنفيذ واجهات GRC، ديكورات الجبس، والأسقف المعلقة للفيلات والقصور.",
+  title: "معرض المشاريع | ديكور برو للمعمار",
+  description: "تصفح معرض صور مشاريع ديكور برو. شاهد إبداعاتنا في تنفيذ واجهات GRC، ديكورات الجبس، والأسقف المعلقة للفيلات والقصور.",
   keywords: ["معرض المشاريع", "صور ديكور", "مشاريع GRC", "جبسوم بورد", "تشطيبات فيلات"],
 };
 
@@ -20,3 +20,4 @@ export default function ProjectsPage() {
     </div>
   );
 }
+

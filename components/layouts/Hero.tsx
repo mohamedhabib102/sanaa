@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { motion } from 'framer-motion';
 
 
@@ -22,7 +22,7 @@ export const Hero = () => {
           className="mb-6 md:mb-10"
         >
           <h1 className="text-[50px] sm:text-[80px] md:text-[150px] lg:text-[180px] font-bold text-zinc-900 leading-[1.1] md:leading-none tracking-tighter uppercase font-serif">
-            EL SANAA
+            ديكور برو
           </h1>
         </motion.div>
 
@@ -33,7 +33,7 @@ export const Hero = () => {
           className="max-w-3xl mx-auto px-4"
         >
           <p className="text-lg sm:text-xl md:text-3xl text-zinc-600 leading-relaxed font-serif italic mb-6">
-            أهلاً بكم في الصنعة للمعمار، حيث نبني إبداعات تتجاوز الخيال.
+            أهلاً بكم في الصناعة للمعمار، حيث نبني إبداعات تتجاوز الخيال.
           </p>
           <p className="text-sm sm:text-lg md:text-xl text-zinc-500 leading-relaxed font-medium">
             هنا تندمج الوظيفة مع الجمال لتشكيل أرقى المنشآت للإنسان المعاصر.
@@ -52,9 +52,10 @@ export const Hero = () => {
         transition={{ delay: 1.5 }}
         className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
       >
-        <span className="text-xs font-bold tracking-[0.3em] text-zinc-400 uppercase">اكتشف المزيد</span>
+        <span className="text-xs font-bold tracking-[0.3em] text-zinc-400 uppercase">Ø§ÙƒØªØ´Ù Ø§Ù„Ù…Ø²ÙŠØ¯</span>
         <div className="w-0.5 h-16 bg-[#c5a059]" />
       </motion.div>
     </section>
   );
 };
+

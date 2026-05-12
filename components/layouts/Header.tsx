@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -22,7 +22,7 @@ export const Header = () => {
   const menuLinks = [
     { name: 'الرئيسية', href: '/' },
     { name: 'مشاريعنا', href: '/projects' },
-    { name: 'عن الصنعة', href: '/about' },
+    { name: 'عن ديكور برو', href: '/about' },
     { name: 'تواصل معنا', href: '/contact' },
   ];
 
@@ -140,3 +140,4 @@ export const Header = () => {
     </>
   );
 };
+

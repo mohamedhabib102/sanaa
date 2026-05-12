@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
@@ -36,7 +36,7 @@ export const AboutContent = () => {
             className="relative order-2 lg:order-1"
           >
             <div className="aspect-4/5 overflow-hidden rounded-3xl shadow-xl">
-              <img src="/imgs/profile_3.jpeg" alt="إتقان العمل في الصنعة" className="w-full h-full object-cover" />
+              <img src="/imgs/profile_3.jpeg" alt="إتقان العمل في ديكور برو" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-10 -left-10 bg-white p-10 shadow-2xl border border-zinc-50 hidden md:block rounded-2xl">
                 <p className="text-xs font-bold uppercase tracking-widest text-[#c5a059] mb-2">جودة هندسية</p>
@@ -53,7 +53,7 @@ export const AboutContent = () => {
             <span className="text-[#c5a059] font-bold text-sm uppercase tracking-widest block mb-4">عنا</span>
             <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 mb-8 leading-tight">حيث يلتقي فن الجبس <br /> بالجمال المعماري</h2>
             <p className="text-zinc-500 text-lg leading-relaxed mb-12">
-              نحن في "الصنعة" نؤمن بأن كل جدار وسقف هو فرصة للإبداع. نتخصص في تنفيذ أرقى الديكورات المعمارية باستخدام أفضل الخامات العالمية. فريقنا يجمع بين الفن والهندسة لتنفيذ أعمال الجبسوم بورد، والأسقف المعلقة، وواجهات الـ GRC والـ GRB التي تمنح الفيلات والقصور هيبتها وفخامتها.
+              نحن في "ديكور برو" نؤمن بأن كل جدار وسقف هو فرصة للإبداع. نتخصص في تنفيذ أرقى الديكورات المعمارية باستخدام أفضل الخامات العالمية. فريقنا يجمع بين الفن والهندسة لتنفيذ أعمال الجبسوم بورد، والأسقف المعلقة، وواجهات الـ GRC والـ GRB التي تمنح الفيلات والقصور هيبتها وفخامتها.
             </p>
             
             <div className="space-y-6 text-zinc-500 text-lg leading-relaxed">
@@ -81,3 +81,4 @@ export const AboutContent = () => {
     </section>
   );
 };
+

@@ -115,13 +115,13 @@ export const ControlProjects = () => {
             >
               <div className="aspect-4/3 relative overflow-hidden">
                 <img src={project.url} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px]">
-                  <button 
-                    onClick={() => handleDelete(project.id)}
-                    className="w-14 h-14 bg-red-600 text-white rounded-2xl flex items-center justify-center hover:scale-110 transition-transform shadow-lg"
-                  >
-                    <FaTrash className="text-xl" />
-                  </button>
+                <button 
+                  onClick={() => handleDelete(project.id)}
+                  className="absolute top-4 left-4 w-12 h-12 bg-red-600/90 text-white rounded-2xl flex items-center justify-center hover:bg-red-600 hover:scale-110 transition-all shadow-lg z-10 backdrop-blur-sm"
+                >
+                  <FaTrash className="text-lg" />
+                </button>
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px] pointer-events-none">
                 </div>
               </div>
               <div className="p-6 text-right flex justify-between items-center bg-white border-t border-zinc-50">

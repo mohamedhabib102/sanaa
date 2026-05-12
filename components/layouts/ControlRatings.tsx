@@ -78,7 +78,7 @@ export const ControlRatings = () => {
                 <FaQuoteRight />
                 <button 
                   onClick={() => handleDelete(rating.id)}
-                  className="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-500 hover:text-white"
+                  className="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center transition-colors hover:bg-red-500 hover:text-white"
                   title="حذف التقييم"
                 >
                   <FaTrash className="text-sm" />

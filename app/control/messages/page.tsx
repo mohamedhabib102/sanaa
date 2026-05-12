@@ -1,10 +1,11 @@
-import React from 'react';
+﻿import React from 'react';
 import { ControlMessages } from '@/components/layouts/ControlMessages';
 
 export const metadata = {
-  title: 'رسائل التواصل | الصنعة',
+  title: 'رسائل التواصل | ديكور برو',
 };
 
 export default function MessagesControlPage() {
   return <ControlMessages />;
 }
+
