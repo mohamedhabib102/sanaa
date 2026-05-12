@@ -30,7 +30,7 @@ export default function Home() {
                   <img src="/imgs/profile_3.jpeg" alt="إتقان العمل" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute -bottom-10 -left-10 bg-white p-10 shadow-2xl border border-zinc-50 hidden md:block rounded-2xl">
-                    <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">منذ عام ١٩٩٨</p>
+                    <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">جودة هندسية</p>
                     <h4 className="text-3xl font-bold text-zinc-900 leading-tight">إتقان يدوي أصيل</h4>
                 </div>
               </motion.div>
@@ -45,7 +45,7 @@ export default function Home() {
                 <span className="text-primary font-bold text-sm uppercase tracking-widest block mb-4">عنا</span>
                 <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 mb-8 leading-tight">حيث يلتقي فن الجبس <br /> بالجمال المعماري</h2>
                 <p className="text-zinc-500 text-lg leading-relaxed mb-12">
-                  نحن في "الصنعة" متخصصون في تنفيذ أرقى الديكورات المعمارية. خبرتنا تمتد لأكثر من ٢٥ عاماً في توريد وتركيب كافة أعمال الجبسوم بورد، وواجهات الـ GRC والـ GRB الخارجية والداخلية، مع الالتزام الكامل بالدقة الهندسية في الفيلات والقصور.
+                  نحن في "الصنعة" نؤمن بأن كل جدار وسقف هو فرصة للإبداع. نتخصص في تنفيذ أرقى الديكورات المعمارية باستخدام أفضل الخامات العالمية. فريقنا يجمع بين الفن والهندسة لتنفيذ أعمال الجبسوم بورد، والأسقف المعلقة، وواجهات الـ GRC والـ GRB التي تمنح الفيلات والقصور هيبتها وفخامتها، مع ضمان المتانة والجمال في آن واحد.
                 </p>
                 <div className="flex justify-end gap-16 border-t border-zinc-100 pt-12">
                    <div>
@@ -53,8 +53,8 @@ export default function Home() {
                       <div className="text-xs font-bold text-zinc-400">مشروع منفذ</div>
                    </div>
                    <div>
-                      <div className="text-5xl font-bold text-zinc-900 mb-1">٢٥</div>
-                      <div className="text-xs font-bold text-zinc-400 tracking-tighter">رقم الخبرة</div>
+                      <div className="text-5xl font-bold text-zinc-900 mb-1">١٠٠٪</div>
+                      <div className="text-xs font-bold text-zinc-400 tracking-tighter">رضا العملاء</div>
                    </div>
                 </div>
               </motion.div>
