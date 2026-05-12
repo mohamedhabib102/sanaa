@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaWhatsapp, FaFacebookF, FaCommentDots, FaTimes } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTiktok, FaPhone, FaCommentDots, FaTimes } from 'react-icons/fa';
 
 export const FloatingContact = () => {
   const pathname = usePathname();
@@ -13,16 +13,28 @@ export const FloatingContact = () => {
 
   const contactLinks = [
     {
+      name: 'اتصال هاتفي',
+      icon: <FaPhone />,
+      color: 'bg-blue-500',
+      href: 'tel:+966568453797',
+    },
+    {
       name: 'واتساب',
       icon: <FaWhatsapp />,
       color: 'bg-[#25D366]',
-      href: 'https://wa.me/+201027227796',
+      href: 'https://wa.me/+966568453797',
     },
     {
-      name: 'فيسبوك',
-      icon: <FaFacebookF />,
-      color: 'bg-[#1877F2]',
-      href: 'https://www.facebook.com/', 
+      name: 'إنستجرام',
+      icon: <FaInstagram />,
+      color: 'bg-[#E1306C]',
+      href: 'https://www.instagram.com/ashrafyasser6018?igsh=YjBvOGJ5eXN2aGM4',
+    },
+    {
+      name: 'تيك توك',
+      icon: <FaTiktok />,
+      color: 'bg-[#000000]',
+      href: 'https://www.tiktok.com/@ashrafyasser215?_r=1&_t=ZS-96HJSz5dn5M',
     },
   ];
 

@@ -55,7 +55,7 @@ export default function RootLayout({
       className={`${cairo.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
-        <Toaster position="top-center" reverseOrder={false} />
+        <Toaster position="top-right" reverseOrder={false} />
         {children}
         <FloatingContact />
       </body>

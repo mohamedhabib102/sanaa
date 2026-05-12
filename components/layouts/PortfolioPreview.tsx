@@ -20,7 +20,7 @@ export const PortfolioPreview = () => {
           headers: { 'x-api-key': process.env.NEXT_PUBLIC_API_SECRET as string }
         });
         const data = await res.json();
-        setProjects(data.result?.slice(0, 3) || []);
+        setProjects(data.result?.slice(0, 6) || []);
       } catch (err) {
         console.error("Failed to fetch projects", err);
       } finally {

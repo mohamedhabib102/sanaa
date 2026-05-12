@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -93,7 +93,7 @@ export const Header = () => {
           >
             <button 
               onClick={() => setIsMenuOpen(false)}
-              className="absolute top-10 right-10 p-5 bg-white/5 rounded-full hover:bg-white/10 transition-all"
+              className="absolute top-6 right-6 p-4 bg-white/5 rounded-full hover:bg-white/10 transition-all"
             >
               <FaTimes className="text-3xl" />
             </button>
@@ -119,8 +119,8 @@ export const Header = () => {
                  <Link 
                    href="/control" 
                    onClick={() => setIsMenuOpen(false)} 
-                   className={`text-4xl md:text-7xl font-bold transition-all ${
-                     pathname === '/control' ? 'text-[#c5a059] scale-110' : 'text-[#c5a059]/80 hover:text-[#c5a059]'
+                   className={`mt-6 flex items-center justify-center px-8 py-3 bg-[#c5a059]/10 text-[#c5a059] rounded-full text-3xl font-bold hover:bg-[#c5a059]/20 transition-all border border-[#c5a059]/20 ${
+                     pathname === '/control' ? 'bg-[#c5a059]/20 scale-105' : ''
                    }`}
                  >
                    لوحة التحكم

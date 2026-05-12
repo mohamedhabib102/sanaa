@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { createMessage } from '@/lib/supabase';
 import { toast } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export const ContactContent = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -97,7 +98,7 @@ export const ContactContent = () => {
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}
                     className="w-full bg-white border border-zinc-200 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#c5a059]/20 transition-all text-right" 
-                    placeholder="01xxxxxxxxx" 
+                    placeholder="+966 56 845 3797" 
                   />
                 </div>
               </div>
@@ -143,7 +144,7 @@ export const ContactContent = () => {
               <div>
                 <h4 className="text-xl font-bold text-zinc-900 mb-2">واتساب</h4>
                 <p className="text-zinc-500 mb-4 text-lg">تواصل سريع ومباشر لمناقشة التفاصيل</p>
-                <a href="https://wa.me/+201027227796" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">+20 102 722 7796</a>
+                <Link dir='ltr' target="_blank" href="https://wa.me/+966568453797" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">+966 568 453 797</Link>
               </div>
             </div>
 
@@ -154,7 +155,7 @@ export const ContactContent = () => {
               <div>
                 <h4 className="text-xl font-bold text-zinc-900 mb-2">اتصال هاتفي</h4>
                 <p className="text-zinc-500 mb-4 text-lg">نحن متاحون للرد على اتصالاتكم</p>
-                <a href="tel:+201027227796" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">+20 102 722 7796</a>
+                <Link dir='ltr' target="_blank" href="tel:+201027227796" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">+966 568 453 797</Link>
               </div>
             </div>
 
@@ -165,7 +166,7 @@ export const ContactContent = () => {
               <div>
                 <h4 className="text-xl font-bold text-zinc-900 mb-2">البريد الإلكتروني</h4>
                 <p className="text-zinc-500 mb-4 text-lg">راسلنا بطلبك أو استفسارك</p>
-                <a href="mailto:info@elsanaa.com" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">info@elsanaa.com</a>
+                <Link dir='ltr' target="_blank" href="mailto:info@elsanaa.com" className="text-[#c5a059] font-bold text-lg hover:underline underline-offset-4">info@elsanaa.com</Link>
               </div>
             </div>
 
@@ -175,7 +176,7 @@ export const ContactContent = () => {
               </div>
               <div>
                 <h4 className="text-xl font-bold text-zinc-900 mb-2">المقر الرئيسي</h4>
-                <p className="text-zinc-500 text-lg">القاهرة، جمهورية مصر العربية</p>
+                <p className="text-zinc-500 text-lg"> جدة، المملكة العربية السعودية</p>
               </div>
             </div>
           </motion.div>
