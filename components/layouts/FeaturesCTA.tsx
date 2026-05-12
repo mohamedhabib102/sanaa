@@ -95,7 +95,7 @@ export const FeaturesCTA = () => {
               transition={{ delay: 0.4 }}
               className="flex flex-col sm:flex-row-reverse items-center gap-6 justify-start"
             >
-              <Button href='https://wa.me/+201027227796' size="lg" className="bg-[#c5a059] text-white px-14 rounded-full h-20 hover:bg-[#b08e4a] flex items-center gap-4 text-xl shadow-2xl shadow-[#c5a059]/30 transition-all active:scale-95">
+              <Button href='https://wa.me/+966568453797' size="lg" className="bg-[#c5a059] text-white px-14 rounded-full h-20 hover:bg-[#b08e4a] flex items-center gap-4 text-xl shadow-2xl shadow-[#c5a059]/30 transition-all active:scale-95">
                   ابدأ مشروعك الآن
                   <FaWhatsapp className="text-3xl" />
               </Button>
