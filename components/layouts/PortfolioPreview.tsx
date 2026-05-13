@@ -34,13 +34,13 @@ export const PortfolioPreview = () => {
     <section id="portfolio" className="py-24 md:py-40 bg-[#fcfaf7]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col-reverse md:flex-row justify-between items-start md:items-end gap-10 mb-20">
-           <Link href="/projects" className="text-sm font-bold uppercase border-b-2 border-zinc-900 pb-2 hover:text-[#c5a059] hover:border-[#c5a059] transition-all tracking-widest">تصفح كل الصور</Link>
+           <Link href="/projects" className="text-sm font-bold uppercase border-b-2 border-zinc-900 pb-2 hover:text-[#c5a059] hover:border-[#c5a059] transition-all tracking-widest"> تصفح كل الأعمال </Link>
            <div className="text-right">
               <div className="flex items-center justify-end gap-4 mb-4">
                 <div className="h-[2px] w-12 bg-[#c5a059]" />
                 <span className="text-[#c5a059] text-sm font-black uppercase tracking-widest">إبداعاتنا المعمارية</span>
               </div>
-              <h2 className="text-4xl md:text-7xl font-bold text-zinc-900 leading-none">معرض المشاريع</h2>
+              <h2 className="text-4xl md:text-7xl font-bold text-zinc-900 leading-none">معرض أعمالنا</h2>
            </div>
         </div>
         
