@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon.png" }, // الأيقونة المربعة (favicon)
+      { url: "/icon.png" },
       { url: "/imgs/logo-new.png", sizes: "192x192", type: "image/png" }
     ],
     shortcut: "/icon.png",
