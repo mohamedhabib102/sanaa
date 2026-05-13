@@ -1,18 +1,9 @@
 'use client';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 export const VideoShowcase = () => {
   const containerRef = useRef(null);
-
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "center center"]  
-  });
-
-  const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
-  const opacity = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <section ref={containerRef} className="py-24 bg-white overflow-hidden">
@@ -57,7 +48,10 @@ export const VideoShowcase = () => {
 
           {/* Video Content */}
           <motion.div
-            style={{ scale, opacity }} // ربط القيم بحركة السكرول
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="order-1 lg:order-1 relative"
           >
             <div className="relative aspect-3/4 md:aspect-4/5 rounded-3xl overflow-hidden shadow-2xl ring-1 ring-zinc-200">

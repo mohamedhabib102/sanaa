@@ -45,7 +45,7 @@ export const Header = () => {
             </div>
 
             {/* Center Section: Logo */}
-            <div className="flex items-center justify-center flex-1">
+            <div className="flex items-center justify-start md:justify-center flex-1">
                <Logo />
             </div>
 
