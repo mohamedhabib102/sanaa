@@ -11,7 +11,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://elsanaa.com'), // استبدل بالنطاق الحقيقي عند الحجز
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://lamset-decor.vercel.app'),
   title: {
     default: "لمسة ديكور | خبراء الجبس والديكور المعماري وواجهات GRC و GRB",
     template: "%s | لمسة ديكور"
@@ -55,9 +55,12 @@ export const metadata: Metadata = {
     images: ["/imgs/logo-new.png"],
   },
   icons: {
-    icon: "/imgs/logo-new.png",
-    shortcut: "/imgs/logo-new.png",
-    apple: "/imgs/logo-new.png",
+    icon: [
+      { url: "/icon.png" }, // الأيقونة المربعة (favicon)
+      { url: "/imgs/logo-new.png", sizes: "192x192", type: "image/png" }
+    ],
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
