@@ -22,7 +22,7 @@ export const Header = () => {
   const menuLinks = [
     { name: 'الرئيسية', href: '/' },
     { name: 'مشاريعنا', href: '/projects' },
-    { name: 'عن ديكور برو', href: '/about' },
+    { name: 'عن لمسة ديكور', href: '/about' },
     { name: 'تواصل معنا', href: '/contact' },
   ];
 

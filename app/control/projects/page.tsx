@@ -1,8 +1,8 @@
-﻿import React from 'react';
+import React from 'react';
 import { ControlProjects } from '@/components/layouts/ControlProjects';
 
 export const metadata = {
-  title: 'إدارة المشاريع | ديكور برو',
+  title: 'إدارة المشاريع | لمسة ديكور',
 };
 
 export default function ProjectsControlPage() {

@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaProjectDiagram, FaStar, FaSpinner, FaHistory, FaEnvelope } from 'react-icons/fa';
@@ -53,7 +53,7 @@ export const ControlDashboard = () => {
     <div className="space-y-12 text-right" dir="rtl">
       <header>
         <h1 className="text-4xl font-bold text-zinc-900 mb-2">مرحباً بك في لوحة التحكم</h1>
-        <p className="text-zinc-400 text-lg">إليك ملخص سريع لأحدث النشاطات في موقع ديكور برو.</p>
+        <p className="text-zinc-400 text-lg">إليك ملخص سريع لأحدث النشاطات في موقع لمسة ديكور.</p>
       </header>
 
       {/* Stats Section */}

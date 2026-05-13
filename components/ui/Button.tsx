@@ -32,7 +32,6 @@ export const Button = ({
 
   const combinedClassName = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`;
 
-  // لو فيه href استخدم Link
   if (href) {
     return (
       <Link target='_blank' rel='noopener noreferrer' href={href} className={combinedClassName}>
@@ -41,7 +40,6 @@ export const Button = ({
     );
   }
 
-  // لو مفيش href استخدم button عادي
   return (
     <button 
       className={combinedClassName}

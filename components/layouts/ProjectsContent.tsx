@@ -52,7 +52,7 @@ export const ProjectsContent = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-5xl md:text-8xl font-bold text-zinc-900 mb-8 leading-none"
+                className="text-4xl md:text-7xl font-bold text-zinc-900 mb-8 leading-none"
             >
                 كل أعمالنا
             </motion.h1>
@@ -82,7 +82,7 @@ export const ProjectsContent = () => {
                         alt={project.title} 
                         className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 text-right">
+                    <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 text-right">
                        <div className="w-8 h-[2px] bg-[#c5a059] mb-4" />
                        <span className="text-white font-bold text-lg">{project.title}</span>
                     </div>

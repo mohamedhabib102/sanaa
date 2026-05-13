@@ -1,12 +1,12 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import { Header } from "@/components/layouts/Header";
 import { Footer } from "@/components/layouts/Footer";
 import { ReviewsContent } from "@/components/layouts/ReviewsContent";
 
 export const metadata: Metadata = {
-  title: "آراء العملاء | ديكور برو للمعمار",
-  description: "اطلع على تقييمات عملاء ديكور برو للمعمار. قصص نجاح وثقة متبادلة في تنفيذ أرقى الديكورات الجبسية والمعمارية.",
-  keywords: ["تقييمات", "آراء العملاء", "ثقة", "مشروعات ناجحة", "ديكور برو"],
+  title: "آراء عملائنا | لماذا يثق الجميع في لمسة ديكور؟",
+  description: "اطلع على تجارب عملائنا الحقيقية مع لمسة ديكور. قصص نجاح وتوصيات تعكس التزامنا بالجودة العالية والمواعيد الدقيقة في تنفيذ أعمال الجبس والديكور.",
+  keywords: ["آراء العملاء", "تقييمات شركة ديكور", "تجارب لمسة ديكور", "ثقة العملاء", "توصيات مقاول جبس", "أفضل مقاول واجهات"],
 };
 
 export default function ReviewsPage() {

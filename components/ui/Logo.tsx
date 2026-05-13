@@ -1,12 +1,14 @@
-﻿
+
 import Link from 'next/link';
 
 export const Logo = ({ className = "" }: { className?: string }) => {
   return (
-    <Link href="/" className={`flex flex-col items-center group ${className}`}>
-      <span className="text-xl md:text-2xl font-serif tracking-[0.3em] text-[#c5a059] font-light leading-none">
-        ديكور برو
-      </span>
+    <Link href="/" className={`flex items-center group ${className}`}>
+      <img 
+        src="/imgs/logo.PNG" 
+        alt="لمسة ديكور" 
+        className="h-12 md:h-16 w-auto object-contain transition-all duration-300 group-hover:brightness-110"
+      />
     </Link>
   );
 };

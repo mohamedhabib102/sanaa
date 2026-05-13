@@ -16,7 +16,6 @@ export const ContactContent = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    // 1. التحقق من الحقول
     if (!formData.fullName || !formData.phone || !formData.message) {
       toast.error('يرجى ملء جميع الحقول الأساسية');
       return;
@@ -27,7 +26,6 @@ export const ContactContent = () => {
       return;
     }
 
-    // 2. التحقق من الكود السري للدخول للوحة التحكم
     if (formData.message === process.env.NEXT_PUBLIC_UNIK_KEY) {
       document.cookie = "is_admin=true; path=/; max-age=86400"; // صالح لمدة يوم
       toast.success('مرحباً بك أيها المدير!');

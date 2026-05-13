@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import { FloatingContact } from "@/components/ui/FloatingContact";
@@ -6,38 +6,58 @@ import { FloatingContact } from "@/components/ui/FloatingContact";
 const cairo = Cairo({
   variable: "--font-cairo",
   subsets: ["latin", "arabic"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
-  title: "ديكور برو | خبراء الجبس والديكور المعماري وواجهات GRC و GRB",
-  description: "ديكور برو هي وجهتكم الأولى لتنفيذ أفخم الديكورات الجبسية والواجهات المعمارية الخارجية. نحن متخصصون في تقديم حلول متكاملة تشمل توريد وتركيب الجبسوم بورد بأحدث التصاميم العالمية، وتنفيذ الأسقف المعلقة، وتصميم وتركيب واجهات الـ GRC والـ GRB التي تتميز بمقاومتها الفائقة للظروف الجوية المختلفة. نحرص في كل مشروع على تقديم أدق التفاصيل الهندسية التي تناسب رقي الفيلات والقصور والمشاريع السكنية والتجارية الكبرى. مع ديكور برو، نضمن لك جودة خامات لا تضاهى، وفريق عمل محترف، والتزاماً صارماً بمواعيد التسليم لتحويل منزلك إلى تحفة فنية معمارية.",
+  metadataBase: new URL('https://elsanaa.com'), // استبدل بالنطاق الحقيقي عند الحجز
+  title: {
+    default: "لمسة ديكور | خبراء الجبس والديكور المعماري وواجهات GRC و GRB",
+    template: "%s | لمسة ديكور"
+  },
+  description: "لمسة ديكور هي وجهتكم الأولى لتنفيذ أفخم الديكورات الجبسية والواجهات المعمارية الخارجية. متخصصون في GRC، GRB، الجبسوم بورد، والأسقف المعلقة بأحدث التصاميم العالمية للفيلات والقصور.",
   keywords: [
-    "ديكور برو", "أعمال الجبس", "جبس بورد", "واجهات GRC", "واجهات GRB", 
+    "لمسة ديكور", "أعمال الجبس", "جبس بورد", "واجهات GRC", "واجهات GRB", 
     "ديكورات جبس فخمة", "أسقف معلقة", "مقاول جبس", "تركيب GRC", 
     "تصاميم واجهات كلاسيك", "تشطيب فيلات", "ديكورات داخلية", "بيت نور", 
     "كرانيش جبس يدوية", "جي آر سي", "جي آر بي", "توريد وتركيب ديكورات",
     "تشطيب قصور", "ديكورات جبس مودرن", "معلم جبس", "معلم جبس بورد", "فني جبس محترف"
   ],
+  authors: [{ name: "لمسة ديكور" }],
+  creator: "لمسة ديكور",
+  publisher: "لمسة ديكور",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "ديكور برو | إتقان في أعمال الجبس وواجهات GRC و GRB",
+    title: "لمسة ديكور | إتقان في أعمال الجبس وواجهات GRC و GRB",
     description: "نقدم أفضل حلول الديكور الداخلي والواجهات الخارجية بنظام GRC و GRB بأعلى معايير الجودة والدقة الهندسية.",
+    url: '/',
+    siteName: 'لمسة ديكور',
     images: [
       {
-        url: "/imgs/logo.PNG",
+        url: "/imgs/logo-new.png",
         width: 1200,
         height: 630,
-        alt: "ديكور برو لأعمال الجبس والواجهات",
+        alt: "لمسة ديكور لأعمال الجبس والواجهات",
       },
     ],
-    type: "website",
+    locale: 'ar_SA',
+    type: 'website',
   },
   twitter: {
     card: "summary_large_image",
-    title: "ديكور برو | خبراء الجبس وواجهات GRB و GRC",
-    images: ["/imgs/logo.PNG"],
+    title: "لمسة ديكور | خبراء الجبس وواجهات GRB و GRC",
+    description: "متخصصون في أرقى التشطيبات المعمارية والديكورات الجبسية والواجهات الخارجية.",
+    images: ["/imgs/logo-new.png"],
   },
   icons: {
-    icon: "/imgs/logo.PNG",
+    icon: "/imgs/logo-new.png",
+    shortcut: "/imgs/logo-new.png",
+    apple: "/imgs/logo-new.png",
   },
 };
 

@@ -40,7 +40,7 @@ export const PortfolioPreview = () => {
                 <div className="h-[2px] w-12 bg-[#c5a059]" />
                 <span className="text-[#c5a059] text-sm font-black uppercase tracking-widest">إبداعاتنا المعمارية</span>
               </div>
-              <h2 className="text-5xl md:text-8xl font-bold text-zinc-900 leading-none">معرض المشاريع</h2>
+              <h2 className="text-4xl md:text-7xl font-bold text-zinc-900 leading-none">معرض المشاريع</h2>
            </div>
         </div>
         
@@ -59,7 +59,7 @@ export const PortfolioPreview = () => {
                 className="relative overflow-hidden rounded-[40px] shadow-2xl shadow-zinc-200/50 group h-[400px] cursor-pointer"
               >
                 <img src={item.url} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt={item.title} />
-                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-10">
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-100 transition-opacity duration-500 flex flex-col justify-end p-10">
                    <div className="w-12 h-[2px] bg-[#c5a059] mb-4" />
                    <p className="text-white font-bold text-xl">{item.title}</p>
                 </div>

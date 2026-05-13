@@ -8,7 +8,6 @@ export const FloatingContact = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
-  // إخفاء المكون تماماً إذا كنا داخل لوحة التحكم
   if (pathname?.startsWith('/control')) return null;
 
   const contactLinks = [

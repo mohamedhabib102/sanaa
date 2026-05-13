@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { motion } from 'framer-motion';
 
 
@@ -21,8 +21,8 @@ export const Hero = () => {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           className="mb-6 md:mb-10"
         >
-          <h1 className="text-[50px] sm:text-[80px] md:text-[150px] lg:text-[180px] font-bold text-zinc-900 leading-[1.1] md:leading-none tracking-tighter uppercase font-serif">
-            ديكور برو
+          <h1 className="text-[40px] sm:text-[60px] md:text-[110px] lg:text-[140px] font-bold text-zinc-900 leading-[1.1] md:leading-none tracking-tighter uppercase font-serif">
+            لمسة ديكور
           </h1>
         </motion.div>
 
@@ -33,7 +33,7 @@ export const Hero = () => {
           className="max-w-3xl mx-auto px-4"
         >
           <p className="text-lg sm:text-xl md:text-3xl text-zinc-600 leading-relaxed font-serif italic mb-6">
-            أهلاً بكم في الصناعة للمعمار، حيث نبني إبداعات تتجاوز الخيال.
+            أهلاً بكم في لمسة ديكور للمعمار، حيث نبني إبداعات تتجاوز الخيال.
           </p>
           <p className="text-sm sm:text-lg md:text-xl text-zinc-500 leading-relaxed font-medium">
             هنا تندمج الوظيفة مع الجمال لتشكيل أرقى المنشآت للإنسان المعاصر.

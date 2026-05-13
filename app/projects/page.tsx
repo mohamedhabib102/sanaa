@@ -1,12 +1,12 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import { Header } from "@/components/layouts/Header";
 import { Footer } from "@/components/layouts/Footer";
 import { ProjectsContent } from "@/components/layouts/ProjectsContent";
 
 export const metadata: Metadata = {
-  title: "معرض المشاريع | ديكور برو للمعمار",
-  description: "تصفح معرض صور مشاريع ديكور برو. شاهد إبداعاتنا في تنفيذ واجهات GRC، ديكورات الجبس، والأسقف المعلقة للفيلات والقصور.",
-  keywords: ["معرض المشاريع", "صور ديكور", "مشاريع GRC", "جبسوم بورد", "تشطيبات فيلات"],
+  title: "معرض المشاريع | إبداعات لمسة ديكور في الواجهات والديكور",
+  description: "استعرض معرض أعمالنا الذي يضم نخبة من المشاريع المنفذة. شاهد صوراً حية لأعمال GRC، ديكورات الجبس الفاخرة، والأسقف المعلقة التي نفذناها في أرقى القصور والفيلات.",
+  keywords: ["معرض أعمال", "صور مشاريع", "مشاريع GRC منفذة", "ديكورات جبس صور", "أعمال لمسة ديكور", "تشطيبات قصور مودرن"],
 };
 
 export default function ProjectsPage() {

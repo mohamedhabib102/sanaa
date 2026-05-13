@@ -1,8 +1,8 @@
-﻿import React from 'react';
+import React from 'react';
 import { ControlRatings } from '@/components/layouts/ControlRatings';
 
 export const metadata = {
-  title: 'إدارة التقييمات | ديكور برو',
+  title: 'إدارة التقييمات | لمسة ديكور',
 };
 
 export default function RatingsControlPage() {
